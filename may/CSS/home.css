@@ -1,0 +1,72 @@
+#home {
+    height: 100vh;
+    position: relative;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.315);
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  #title {
+    font-size: 4rem;
+    color: #fff;
+  }
+  
+  #description {
+    font-size: 2rem;
+    color: #fff;
+  }
+  @media (max-width: 768px) {
+    #Home {
+      height: auto;
+      margin-bottom: -340px;
+    }
+    
+    .background {
+      position: relative;
+      height: 50vh;
+      background-position: center;
+    }
+    
+    .content {
+      top: 50%;
+    }
+    
+    #title {
+      font-size: 3rem;
+    }
+    
+    #description {
+      font-size: 1rem;
+    }
+    
+    #About {
+      padding-top: 10px;
+     
+    }
+  }
+  
+  
+  
